@@ -1,0 +1,836 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.nav {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+h1 {
+    color: white;
+    padding: 2%;
+}
+
+ul {
+    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+ol {
+    color: white;
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 2%;
+}
+
+.photo-div {
+    height: 100%;
+    width: 60%;
+    background-image: url(DSCF0045.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 39.8%;
+}
+
+.unearth {
+    font-size: 3.8vmax;
+    position: absolute;
+    font-weight: 100;
+    left: 7%;
+    top: 30%;
+}
+
+.pera1 {
+    font-size: 1.5vmax;
+    color: white;
+    position: absolute;
+    left: 9%;
+    top: 63%;
+}
+
+.btn-our {
+    position: absolute;
+    left: 9%;
+    top: 78%;
+    padding: 10px 35px;
+    background: none;
+    color: white;
+    border-color: white;
+}
+
+/* ================================================================================================ */
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.page2-main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    /* background-color: forestgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divleft-photo {
+    height: 64%;
+    width: 20%;
+    background-image: url(21wq2.webp);
+
+    
+
+}
+
+.middle-div {
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.divright-photo {
+    height: 58%;
+    width: 20%;
+    /* background-color: blue; */
+     background-image: url(Tremella_snow_mushroom_Elder_Flower_ingredients.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative;
+    left: 80%;
+    top: -60%;  */
+}
+
+.fungi-h1 {
+     position: relative;
+     left: 23%;
+     top: 10%;
+    font-size: 4vmax;
+    font-weight: 100;
+    color: black;
+}
+
+.pera1-page2 {
+    position: relative;
+    top: 12%;
+    color: black;
+    text-align: center;
+    font-size: 1.9vmax;
+}
+
+#btn-page2 {
+    position: absolute;
+    z-index: 999;
+    left: 44%;
+    top: 63%;
+    color: black;
+    border: none;
+    /* background-color: darkmagenta; */
+}
+/* ================================================================================================ */
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* overflow: hidden; */
+    
+
+}
+.main3{
+    height: 100%;
+    width: 80%;
+    /* background-color: red; */
+
+}
+.box2{
+    height: 8%;
+    width: 100%;
+    /* background-color: forestgreen; */
+    border-bottom: 2px solid #9c7d6e;
+}
+.project3-text{
+    text-transform: uppercase;
+    font-size: 2.1vmax;
+    font-weight: 100;
+    color: #9c7d6e;
+}
+.page3-main{
+    /* background-color: violet; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.div1{
+    height: 100%;
+    width: 24%;
+    /* background-color: rgb(8, 8, 125); */
+}
+.page3-photo1-div{
+    height: 340px;
+    width:  290px;
+    /* background-color: darkgoldenrod; */
+}
+.un-text-div{
+    height: 40%;
+    width: 100%;
+     /* background-color: red;  */
+    position: relative;
+    top: 6%;
+}
+.unearth-h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    top: 2%;
+    color: #9c7d6e;
+}
+.mushroom-h1{
+    font-size: 15px;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    color: #9c7d6e;
+}
+.btn-add1{
+    position: absolute;
+    left: 26%;
+    top: 79%;
+    font-size: 10px;
+    background-color: #9c7d6e;
+}
+.page3-photo1{
+    height: 100%;
+    width:  100%;
+}
+.sale-btn{
+    font-size: 10px;
+    padding: 2px 4px;
+    position: relative;
+    background-color: #9c7d6e;
+    top: 5%;
+    left: 60%;
+    
+}
+.div2{
+    height: 100%;
+    width: 24%;
+    /* background-color: rgb(28, 153, 187); */
+}
+.un-text-div2{
+    height: 40%;
+    width: 100%;
+     /* background-color: red;  */
+    position: relative;
+    top: 6%;
+}
+.SERUM-h1{
+    position: relative;
+    top: 32.9%;
+    color: #9c7d6e;
+    font-size: 1vmax;
+    text-align: center;
+}
+.page3-phot2{
+    height: 360px;
+    width: 300px;
+}
+.div3{
+    height: 100%;
+    width: 24%;
+    /* background-color: rgb(41, 196, 88); */
+}
+.un-text-div3{
+    height: 40%;
+    width: 100%;
+     /* background-color: red;  */
+    position: relative;
+    top: 6%;
+}
+.facial-h1{
+    position: relative;
+    top: 32.9%;
+    color: #9c7d6e;
+    font-size: 1vmax;
+    text-align: center;
+}
+.page3-photo3{
+    height: 360px;
+    width:  300px;
+    
+    
+}
+.div4{
+    height: 100%;
+    width: 24%;
+    /* background-color: rgb(126, 126, 146); */
+}
+.snow-h1{
+    position: relative;
+    top: 25.4%;
+    color: #9c7d6e;
+    font-size: 1vmax;
+    text-align: center;
+}
+.un-text-div4{
+    height: 40%;
+    width: 100%;
+     /* background-color: red;  */
+    position: relative;
+    top: 6%;
+}
+.uneargrow-h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    top: -5%;
+    color: #9c7d6e;
+}
+.btn-add2{
+    position: absolute;
+    left: 26%;
+    top: 71.4%;
+    font-size: 10px;
+    background-color: #9c7d6e;
+}
+.coming-btn{
+    position: relative;
+    top: 3%;
+    left: 68%;
+    font-size: 10px;
+    padding: 2px 4px;
+    position: relative;
+    background-color: #9c7d6e;
+
+}
+.page3-photo4{
+    height: 360px;
+    width:  300px;
+}
+
+
+/* ==================================================================================================================================== */
+
+.page4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.div-left{
+    height: 90%;
+    width: 50%;
+    /* background-color: #9c7d6e; */
+    background-image: url(DSCF0045.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 5%;
+}
+.div-right{
+    height: 80%;
+    width: 50%;
+    background-color: #033939;
+    position: relative;
+    top: 10%;
+}
+.pera-page4{
+    line-height: 40px;
+    position: relative;
+    left: 20%;
+    top: 38%;
+    font-size: 2vmax;
+    color: white;
+}
+/* =============================================================================================== */
+
+.page5{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+     align-items: center; 
+}
+.page5-leftdiv{
+    height: 60%;
+    width: 35%;
+     /* background-color: red;  */
+    position: relative;
+    left: 8%;
+}
+.page5-rightdiv{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(9, 9, 9); */
+    background-image: url(DSCF0618.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.the-h1{
+    font-size: 2.5vmax;
+    font-weight: 100;
+    color: #9c7d6e;
+}
+.pera-page5{
+    font-size: 1.2vmax;
+    font-weight: 800;
+    color: #9c7d6e;
+    position: relative;
+    left: 2.8%;
+    top: 10%;
+}
+.btn-learn{
+    font-size: 15px;
+    padding: 5px 6px;
+    position: absolute;
+    left: 2.4%;
+    top: 80%;
+    border: none;
+    color: #9c7d6e;
+    background: none;
+    
+}
+/* ========================================================================================== */
+
+.page6{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.page6-div1{
+    height: 60%;
+    width: 30%;
+    /* background-color: aqua;  */
+    position: relative;
+    top: -18%;
+}
+.page6-div1-photo1{
+    height: 450px;
+    width: 300px;
+    
+}
+.page6-div2{
+    height: 60%;
+    width: 45%;
+    /* background-color: rgb(9, 9, 9); */
+    position: relative;
+    left: 13%;
+    top: -35%;
+}
+
+.page6-div1-photo2{
+    height: 450px;
+    width: 420px;
+    
+}
+.page6-div3{
+    height: 50%;
+    width: 60%;
+    /* background-color: rgb(227, 16, 16); */
+    position: relative;
+    top: 45%;
+    left: -15%;
+}
+.sustainability-h1{
+    font-size: 3.3vmax;
+    font-weight: 100;
+    color: #9c7d6e;
+    position: relative;
+    left: 5%;
+}
+.page6-pera{
+    font-size: 20px;
+    font-weight: 500;
+    color: #9c7d6e;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.btn-page6{
+    background: none;
+    color: #9c7d6e;
+    border: none;
+    position: relative;
+    top: 13%;
+    left: 40%;
+    padding: 2px 10px;
+}
+
+
+
+
+
+
+.page6-div4{
+    height: 44%;
+    width: 38%;
+    /* background-color: rgb(57, 12, 192); */
+    position: relative;
+    top: 47%;
+}
+.page6-div1-photo4{
+    height: 335px;
+    width: 308px;
+    
+}
+
+
+
+
+
+
+
+/* ============================================================================================= */
+
+.page7{
+    height: 110%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main7{
+    height: 100%;
+    width: 80%;
+    /* background-color: red; */
+    
+}
+.main7-box{
+    height: 8%;
+    width: 100%;
+    /* background-color: green; */
+    border-bottom: 2px solid #9c7d6e;
+    
+    
+}
+.journal-h1{
+    font-size: 2.1vmax;
+    font-weight: 100;
+    color: #9c7d6e;
+}
+.babu{
+    height: 90%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.page7-div1{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    transition: transform 0.5s; 
+}
+.page7-div1:hover{
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
+    color: rgba(148, 144, 144, 0.779);
+}
+.page7-photo1{
+    height: 400px;
+    width: 365px;
+    position: relative;
+    top: 2%;
+}
+.the-h1{
+    font-size: 33px;
+    color: #9c7d6e;
+    position: relative;
+    left: 3%;
+    top: 2%;
+}
+.page7-pera1{
+    font-size: 1.5vmax;
+    color: #9c7d6e;
+    position: relative;
+    left: 6%;
+    top: 10%;
+}
+.page7-div2{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(7, 7, 7); */
+    position: relative;
+    left: -3%;
+}
+.page7-div2:hover{
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
+    color: rgba(148, 144, 144, 0.779);
+}
+.page7-photo2{
+    height: 400px;
+    width: 365px;
+    position: relative;
+    top: 2%;
+}
+
+.news-h1{
+    font-size: 17px;
+    color: #9c7d6e;
+    position: relative;
+    top: 3%;
+    left: -2%;
+}
+.from-h1{
+    font-size: 28px;
+    color: #9c7d6e;
+    position: relative;
+    top: 3%;
+    left: -2%;
+}
+.page7-pera2{
+    font-size: 18px;
+    color: #9c7d6e;
+    position: relative;
+    top: 3%;
+}
+.page7-div3{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(63, 205, 23); */
+    position: relative;
+    left: -6%;
+}
+.page7-div3:hover{
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
+    color: rgba(148, 144, 144, 0.779);
+}
+.page7-photo3{
+    height: 400px;
+    width: 365px;
+    position: relative;
+    top: 2%;
+}
+.news2-h1{
+    font-size: 17px;
+    color: #9c7d6e;
+    position: relative;
+    top: 3%;
+    left: -2%;
+}
+.the-power-h1{
+    font-size: 30px;
+    color: #9c7d6e;
+    position: relative;
+    top: 3%;
+    left: -2%;
+}
+.page7-pera3{
+    font-size: 18px;
+    color: #9c7d6e;
+    position: relative;
+    top: 9%;
+}
+/* ======================================================================================================= */
+.page8{
+    height: 100%;
+    width: 100%;
+    background-color: #033939;
+    margin-top: 5%;
+    flex-direction: column;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.main-page8{
+    height: 70%;
+    width: 80%;
+    /* background-color: yellow; */
+    position: relative;
+    top: 5%;
+    display: flex;
+}
+.page8-1div{
+    height: 100%;
+    width: 42%;
+    /* background-color: red; */
+}
+.truest-h1{
+    font-size: 1.8vmax;
+    font-weight: 100;
+    position: relative;
+    top: 10%;
+    color: #cbaf8a;
+}
+.get-pera{
+    font-size: 21px;
+    position: relative;
+    top: 15%;
+    left: 2%;
+    color: #cbaf8a;
+}
+.input{
+    padding: 10px 140px;
+    text-align:start;
+    position: relative;
+    top: 23%;
+    left: 2%;
+    background: transparent;
+    border: 1px solid white;
+}
+
+
+
+.page8-2div{
+    height: 100%;
+    width: 23%;
+    /* background-color: rgb(9, 9, 9); */
+}
+.products-h1{
+    font-size: 2.4vmax;
+    margin-top: 53%;
+    color: #cbaf8a;
+}
+.text-2{
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-top: 20%;
+}
+.text-2 li{
+    font-size: 19px;
+    position: relative;
+    top: 80%;
+    left: 2.5%;
+    line-height: 2vmax;
+    color: #cbaf8a;
+}
+
+.page8-3div{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(11, 44, 231); */
+}
+.company-h1{
+    font-size: 2.4vmax;
+    margin-top: 60%;
+    color: #cbaf8a;
+}
+.text-3{
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-top: 20%;
+    
+}
+.text-3 li{
+    font-size: 19px;
+    position: relative;
+    top: 80%;
+    left: 2.5%;
+    line-height: 2vmax;
+    color: #cbaf8a;
+}
+.page8-4div{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(37, 180, 24); */
+}
+.help-h1{
+    font-size: 2.4vmax;
+    margin-top: 60%;
+    /* position: relative;
+    left: 0%; */
+    text-align: justify;
+    color: #cbaf8a;
+}
+.text-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-top: 20%;
+}
+.text-4 li{
+    font-size: 19px;
+    position: relative;
+    /* top: 80%; */
+    left: 2.5%;
+    line-height: 2vmax;
+    color: #cbaf8a;
+}
+
+.main2-page8{
+    height: 25%;
+    width: 80%;
+    position: relative;
+    top: 2%;
+    /* background-color: rgb(56, 56, 54); */
+    border-top: 1px solid white;
+}
